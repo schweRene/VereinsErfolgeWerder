@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SaisonWindow</class>
+ <widget class="QMainWindow" name="SaisonWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1161</width>
+    <height>855</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>SV Werder Bremen</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normalon>logo.bmp</normalon>
+   </iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="minimumSize">
+    <size>
+     <width>1024</width>
+     <height>768</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:green;</string>
+   </property>
+   <widget class="QPushButton" name="saveBtn">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>700</y>
+      <width>171</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:gray;  border-radius:20px;</string>
+    </property>
+    <property name="text">
+     <string>Speichern</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="saisontbl">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>90</y>
+      <width>1011</width>
+      <height>561</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:white; border: 1px solid black;</string>
+    </property>
+    <property name="showGrid">
+     <bool>true</bool>
+    </property>
+    <property name="gridStyle">
+     <enum>Qt::SolidLine</enum>
+    </property>
+    <property name="sortingEnabled">
+     <bool>false</bool>
+    </property>
+    <column>
+     <property name="text">
+      <string>ID</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Saison</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Platz</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Siege</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Unentschieden</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Niederlagen</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Tore</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Tordifferenz</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Punkte</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Liga</string>
+     </property>
+    </column>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1161</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <widget class="QMenu" name="menuStartseite">
+    <property name="title">
+     <string>Startseite</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuSaison_bersicht">
+    <property name="title">
+     <string>Saisonübersicht</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuTrainer_bersicht">
+    <property name="title">
+     <string>Trainerübersicht</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuErfolge_bersicht">
+    <property name="title">
+     <string>Erfolgeübersicht</string>
+    </property>
+   </widget>
+   <addaction name="menuStartseite"/>
+   <addaction name="menuSaison_bersicht"/>
+   <addaction name="menuTrainer_bersicht"/>
+   <addaction name="menuErfolge_bersicht"/>
+  </widget>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

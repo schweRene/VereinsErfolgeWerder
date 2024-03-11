@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1230</width>
+    <height>887</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>SV Werder Bremen</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normalon>logo.bmp</normalon>
+   </iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:green;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="stadiolbl">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>0</y>
+      <width>1211</width>
+      <height>531</height>
+     </rect>
+    </property>
+    <property name="baseSize">
+     <size>
+      <width>1920</width>
+      <height>1080</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>stadion.jpg</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="werderlbl">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>600</y>
+      <width>851</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>45</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>SV Werder Bremen</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1230</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <widget class="QMenu" name="menuStartseite">
+    <property name="title">
+     <string>Startseite</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuSaison_bersicht">
+    <property name="title">
+     <string>Saisonübersicht</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuTrainer_bersicht">
+    <property name="title">
+     <string>Trainerübersicht</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuErfolge_bersicht">
+    <property name="title">
+     <string>Erfolgeübersicht</string>
+    </property>
+   </widget>
+   <addaction name="menuStartseite"/>
+   <addaction name="menuSaison_bersicht"/>
+   <addaction name="menuTrainer_bersicht"/>
+   <addaction name="menuErfolge_bersicht"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

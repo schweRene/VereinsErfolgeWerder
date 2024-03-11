@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SpielerWindow</class>
+ <widget class="QMainWindow" name="SpielerWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>SpielerWindow</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normalon>logo.bmp</normalon>
+   </iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:green;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="spielerTbl">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>70</y>
+      <width>1761</width>
+      <height>711</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Segoe UI&quot;;background-color:white;</string>
+    </property>
+    <column>
+     <property name="text">
+      <string>ID</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Vorname</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Nachname</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Nationalität</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Von</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Bis</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Ligaspiele</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Ligatore</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Position</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QPushButton" name="saveBtn">
+    <property name="geometry">
+     <rect>
+      <x>1640</x>
+      <y>810</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:white; border-radius:20px;</string>
+    </property>
+    <property name="text">
+     <string>Speichern</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
